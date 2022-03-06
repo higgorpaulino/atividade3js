@@ -7,7 +7,7 @@
         <meta name="description" content="Formulário para contato da empresa XPTO.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <script type="text/javascript" src="script.js"></script>
+        <script src="script.js"></script>
     </head>
 
     <body>
@@ -17,7 +17,7 @@
                 <div id="barra_acessibilidade" class="d-none">
                     <ul id="atalhos">
                         <li><a href="#menu" accesskey="1">Ir para menu [1]</a></li>
-                        <li><a href="#formulario" accesskey="2">Ir para formulário [2]</a></li>
+                        <li><a href="#formularioContato" accesskey="2">Ir para formulário [2]</a></li>
                     </ul>   
                 </div>  
 
@@ -60,7 +60,7 @@
                     </div>
                 </nav>
                 <article class="col-12">  
-                    <h2 id="formulario">Formulário de Contato</h2>
+                    <h2 id="formularioContato">Formulário de Contato</h2>
                     <!-- Ok - torne o formulário responsivo, conforme o exemplo consulte https://getbootstrap.com.br/docs/4.1/components/forms/ -->  
                     <form action="#" method="post" id="formulario" name="formulario">
                         <fieldset><legend class="d-none">Dados Pessoais</legend>
@@ -99,7 +99,7 @@
                             <div class="form-group row">
                                 <label for="mensagem" class="col-sm-2 col-form-label col-form-label-sm"></label>
                                 <div class="col-sm-10">
-                                    <button type="button" onclick="validar()" class="btn btn-primary my-1" class="botao">Enviar</button>
+                                    <button type="button" onclick="validar()" class="btn btn-primary my-1" name="botao">Enviar</button>
                                 </div>
                             </div>
                             <div class="form-group row">
